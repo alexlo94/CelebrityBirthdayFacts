@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+html{
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+
+	background: #3B7AA3; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left, #3B7AA3 , #80BDE3, #3B7AA3); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #3B7AA3, #80BDE3, #3B7AA3); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #3B7AA3, #80BDE3, #3B7AA3); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #3B7AA3 , #80BDE3, #3B7AA3); /* Standard syntax */
+}
+
+#wrapper{
+	width: 830px;
+	margin: 0 auto;
+	padding-bottom: 10px;
+
+
+	background-color: #FFFFFF;
+	border-radius: 3px;
+}
+
+#wrapper > #title{
+	text-align: center;
+
+	font-size: 40px;
+	margin: 0 auto;
+}
+
+#app{
+	margin-top: 10px;
+	margin-right:auto;
+	margin-left:auto;
+	margin-bottom:10px;
+
+	color: #777;
+	text-align: center;
+}
+
+#app > label{
+	font-size: 15px;
+}
+
+#searchbox{
+	color: #333;
+	font-size: 20px;
+
+	margin-right: 0px;
+
+	border: 2px solid #FF9339;
+	border-radius: 2px;
+
+	width: 80%;
+	height: 10%;
+}
+
+#querybutton{
+	background-color: #FF9339;
+	color: #FFFFFF;
+
+	font-size: 20px;
+	font-weight: bold;
+
+	border: none;
+	border-radius: 2px;
+
+	padding-left: 6px;
+	padding-right: 6px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+
+	display: inline-block;
+}
+
+.results{
+	display: none;
+
+	width: 810px;
+	margin: 10px auto;
+	padding: 10px;
+
+	font-size: 16px;
+
+	background: #FFFFFF;
+
+	border: 2px solid #FFFFFF;
+	border-radius: 2px;
+}
+
+.dyk{
+	font-style: italic;
+	color: #777;
+}
